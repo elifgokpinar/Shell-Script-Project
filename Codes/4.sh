@@ -15,15 +15,15 @@ if [ -z "$file" ]
 					for (( j=0 ; j<${#word} ; j++)) {
 						digit=${word:j:1}
 						case $digit in
-							0) num='zero' ;;
-							1) num='one' ;;
+						0) num='zero' ;;
+						1) num='one' ;;
 			       			2) num='two' ;;
 			       			3) num='three' ;;
 			       			4) num='four' ;;
 			       			5) num='five' ;;
 			       			6) num='six' ;;
 			       			7) num='seven' ;;
-			      				8) num='eight' ;;
+			      			8) num='eight' ;;
 			       			9) num='nine' ;;
 			 			esac
 			 			last="$last$num"
